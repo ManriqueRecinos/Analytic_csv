@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
-import About from './components/About'; // Importar About
+import About from './components/About';
 import { useState } from 'react';
 
 function App() {
@@ -20,17 +20,22 @@ function App() {
 
   return (
     <Router>
-      <div style={{ display: 'flex', height: '100vh' }}>
+      <div style={{ display: 'flex' }}>
         <Sidebar />
-        <main style={{ marginLeft: '220px', padding: '2rem', flex: 1, overflowY: 'auto' }}>
+        <main style={{ marginLeft: '220px', padding: '2rem', flex: 1 }}>
           <Routes>
-            <Route path="/" element={<h1>Bienvenido al sistema de carga CSV</h1>} />
-            <Route path="/acerca-de" element={<About />} />
+            <Route path="/" element={
+              <div>
+                <h1>Bienvenido al sistema de carga CSV</h1>
+                <p>Selecciona una opción en el menú para comenzar.</p>
+                <input type="file" accept=".csv" onChange={handleFileUpload} />
+                <pre style={{ marginTop: '1rem', padding: '1rem' }}>
+                  {csvContent}
+                </pre>
+              </div>
+            } />
+            <Route path="/about" element={<About />} />
           </Routes>
-          <input type="file" accept=".csv" onChange={handleFileUpload} />
-          <pre style={{ marginTop: '1rem', padding: '1rem' }}>
-            {csvContent}
-          </pre>
         </main>
       </div>
     </Router>

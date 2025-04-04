@@ -18,11 +18,12 @@ const About = () => {
 const styles = {
   container: {
     padding: '2rem',
-    height: '100vh',
+    height: '80vh',
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: 'center', // Centra el contenido verticalmente
+    alignItems: 'center',     // Centra el contenido horizontalmente
+    overflow: 'hidden',       // Elimina el scroll
   },
   title: {
     fontSize: '2rem',
@@ -30,7 +31,7 @@ const styles = {
   },
   text: {
     fontSize: '1.2rem',
-    color: '#fff',
+    color: '#000',
     lineHeight: '1.6',
   },
 };

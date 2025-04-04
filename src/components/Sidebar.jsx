@@ -6,7 +6,7 @@ const Sidebar = () => {
             <h2 style={styles.title}>Subir CSV</h2>
             <ul style={styles.nav}>
                 <li><a href="/" style={styles.link}>Inicio</a></li>
-                <li><a href="/acerca-de" style={styles.link}>Acerca de</a></li>
+                <li><a href="/about" style={styles.link}>Acerca de</a></li>
                 <li><a href="#" style={styles.link}>Subir CSV</a></li>
                 <li><a href="#" style={styles.link}>Configuración</a></li>
             </ul>
