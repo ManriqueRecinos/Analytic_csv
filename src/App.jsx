@@ -28,7 +28,7 @@ function App() {
             <Route path="/acerca-de" element={<About />} />
           </Routes>
           <input type="file" accept=".csv" onChange={handleFileUpload} />
-          <pre style={{ marginTop: '1rem', padding: '1rem', backgroundColor: '#f4f4f4' }}>
+          <pre style={{ marginTop: '1rem', padding: '1rem' }}>
             {csvContent}
           </pre>
         </main>
