@@ -18,7 +18,7 @@ const About = () => {
 const styles = {
   container: {
     padding: '2rem',
-    backgroundColor: '#f4f4f4',
+    
     height: '100vh',
     display: 'flex',
     flexDirection: 'column',
@@ -31,7 +31,7 @@ const styles = {
   },
   text: {
     fontSize: '1.2rem',
-    color: '#333',
+    color: '#fff',
     lineHeight: '1.6',
   },
 };
