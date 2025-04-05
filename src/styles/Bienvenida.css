@@ -1,0 +1,8 @@
+.black-text {
+    font-family: 'Poppins', sans-serif; /* Asegúrate de usar la fuente definida */
+    font-weight: 700; /* Negrita */
+    font-style: normal; /* Estilo en cursiva */
+    font-size: 100px;
+    text-align: center;
+  }
+  
