@@ -27,14 +27,14 @@
     text-decoration: none;
   }
   
-  .sidebar .thin-text{
+  .thin-text{
     font-family: 'Poppins', sans-serif;
-    font-weight: 100; /* Thin */
+    font-weight: 400;
     font-style: normal;
   }
 
 .semi-bold-text{
     font-family: 'Poppins', sans-serif;
-    font-weight: 100; /* Thin */
+    font-weight: 300;
     font-style: normal;
   }

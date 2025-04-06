@@ -7,7 +7,7 @@ const Home = () => {
   };
 
   return (
-    <div style={{ marginTop: '4rem', textAlign: 'center' }}>
+    <div className="about-container" style={{ marginTop: '4rem', textAlign: 'center' }}>
       <SplitText
         text="Hello, Byron Bragiroli!"
         className="black-text" // Usa la clase 'black-text'

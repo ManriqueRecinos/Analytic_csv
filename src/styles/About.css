@@ -1,0 +1,35 @@
+.about-container {
+    padding: 2rem;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .about-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Estilos para los textos animados */
+  .main_text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .thin_text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
